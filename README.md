@@ -6,7 +6,7 @@ Players take turns to roll a single dice as many times as they wish, adding all 
 
 Gameplay
 
--Each turn a player rolls a die until either a 1 is rolled or the player decides to hold.
+git -Each turn a player rolls a die until either a 1 is rolled or the player decides to hold.
 
 -If the player rolls a 1, they score nothing and the turn passes to the next player.
 
