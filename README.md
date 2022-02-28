@@ -1,4 +1,4 @@
-#Pig Game Project
+Pig Game Project
 
 Pig is a simple dice game first described in print in John Scarne 1945.
 

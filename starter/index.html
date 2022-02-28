@@ -30,8 +30,29 @@
       <button class="btn btn--new">🔄 New game</button>
       <button class="btn btn--roll">🎲 Roll dice</button>
       <button class="btn btn--hold">📥 Hold</button>
-      <button class="btn2 btn--howto">How to Play</button>
+      <button class="btn2 show-modal">How to Play</button>     
     </main>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1><strong>Pig Game</strong></h1>
+      <p>
+        Pig is a simple dice game first described in print in John Scarne 1945.
+        <br/><br/>
+        Players take turns to roll a single dice as many times as they wish, adding all roll results to a running total, but losing their gained score if they roll a 1.
+        <br/><br/>
+        <strong>How To Play</strong><br/><br/>
+        &#149 Each turn a player rolls a die until either a 1 is rolled or the player decides to hold.
+        <br/><br/>
+        &#149 If the player rolls a 1, they score nothing and the turn passes to the next player.
+        <br/><br/>
+        &#149 If the player rolls any other number, it is added to their turn total and the player continues.
+        <br/><br/>
+        &#149 If the player chooses to 'hold', their turn total is added to their score, it the becomes the next players turn.
+        <br/><br/>
+        &#149 The first player to score 100 points or more wins.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
     <script src="script.js"></script>
   </body>
 </html>
